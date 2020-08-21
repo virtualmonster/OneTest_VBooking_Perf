@@ -1,0 +1,137 @@
+<?xml version="1.1" encoding="UTF-8"?><rpt:ruleSet xmlns:rpt="rpt" genuid="35" configFileName="/OneTest_VBooking_Perf/BookingDatasetRules.dcrules" version="7">
+  <arg:topLevelArgumentContainer xmlns:arg="arg:com.ibm.rational.test.lt.datacorrelation.rules"/>
+  <pass:full xmlns:pass="pass:com.ibm.rational.test.lt.datacorrelation.rules" uid="1" label="Existing Data Correlation">
+    <rul:createDatapoolColumn xmlns:rul="rule:com.ibm.rational.test.lt.datacorrelation.rules" datapoolPath="/OneTest_VBooking_Perf/PassengerDetails.csv" uid="2" columnCreationAllowed="false" datapoolCreationAllowed="false" columnName="passengergender">
+      <pass:linkDataSourceWithSubstitutions uid="3">
+        <rul:createSubstitution regexp="&amp;passengergender=(.*?)&amp;" uid="4" encoded="true">
+          <names>
+            <item>passengergender</item>
+          </names>
+          <attributes>
+            <item>req_uri</item>
+          </attributes>
+        </rul:createSubstitution>
+      </pass:linkDataSourceWithSubstitutions>
+    </rul:createDatapoolColumn>
+    <rul:createDatapoolColumn xmlns:rul="rule:com.ibm.rational.test.lt.datacorrelation.rules" datapoolPath="/OneTest_VBooking_Perf/PassengerDetails.csv" uid="5" columnCreationAllowed="false" datapoolCreationAllowed="false" columnName="securityCode">
+      <pass:linkDataSourceWithSubstitutions uid="6">
+        <rul:createSubstitution regexp="&amp;securityCode=(.*?)&amp;" uid="7" encoded="true">
+          <names>
+            <item>securityCode</item>
+          </names>
+          <attributes>
+            <item>req_uri</item>
+          </attributes>
+        </rul:createSubstitution>
+      </pass:linkDataSourceWithSubstitutions>
+    </rul:createDatapoolColumn>
+    <rul:createDatapoolColumn xmlns:rul="rule:com.ibm.rational.test.lt.datacorrelation.rules" datapoolPath="/OneTest_VBooking_Perf/PassengerDetails.csv" uid="8" columnCreationAllowed="false" datapoolCreationAllowed="false" columnName="passengerfirstname">
+      <pass:linkDataSourceWithSubstitutions uid="9">
+        <rul:createSubstitution regexp="&amp;passengerfirstname=(.*?)&amp;" uid="10" encoded="true">
+          <names>
+            <item>passengerfirstname</item>
+          </names>
+          <attributes>
+            <item>req_uri</item>
+          </attributes>
+        </rul:createSubstitution>
+      </pass:linkDataSourceWithSubstitutions>
+    </rul:createDatapoolColumn>
+    <rul:createDatapoolColumn xmlns:rul="rule:com.ibm.rational.test.lt.datacorrelation.rules" datapoolPath="/OneTest_VBooking_Perf/PassengerDetails.csv" uid="11" columnCreationAllowed="false" datapoolCreationAllowed="false" columnName="addressline1">
+      <pass:linkDataSourceWithSubstitutions uid="12">
+        <rul:createSubstitution regexp="&amp;addressline1=(.*?)&amp;" uid="13" encoded="true">
+          <names>
+            <item>addressline1</item>
+          </names>
+          <attributes>
+            <item>req_uri</item>
+          </attributes>
+        </rul:createSubstitution>
+      </pass:linkDataSourceWithSubstitutions>
+    </rul:createDatapoolColumn>
+    <rul:createDatapoolColumn xmlns:rul="rule:com.ibm.rational.test.lt.datacorrelation.rules" datapoolPath="/OneTest_VBooking_Perf/PassengerDetails.csv" uid="14" columnCreationAllowed="false" datapoolCreationAllowed="false" columnName="addressline2">
+      <pass:linkDataSourceWithSubstitutions uid="15">
+        <rul:createSubstitution regexp="&amp;addressline2=(.*?)&amp;" uid="16" encoded="true">
+          <names>
+            <item>addressline2</item>
+          </names>
+          <attributes>
+            <item>req_uri</item>
+          </attributes>
+        </rul:createSubstitution>
+      </pass:linkDataSourceWithSubstitutions>
+    </rul:createDatapoolColumn>
+    <rul:createDatapoolColumn xmlns:rul="rule:com.ibm.rational.test.lt.datacorrelation.rules" datapoolPath="/OneTest_VBooking_Perf/PassengerDetails.csv" uid="17" columnCreationAllowed="false" datapoolCreationAllowed="false" columnName="passengerlastname">
+      <pass:linkDataSourceWithSubstitutions uid="18">
+        <rul:createSubstitution regexp="&amp;passengerlastname=(.*?)&amp;" uid="19" encoded="true">
+          <names>
+            <item>passengerlastname</item>
+          </names>
+          <attributes>
+            <item>req_uri</item>
+          </attributes>
+        </rul:createSubstitution>
+      </pass:linkDataSourceWithSubstitutions>
+    </rul:createDatapoolColumn>
+    <rul:createDatapoolColumn xmlns:rul="rule:com.ibm.rational.test.lt.datacorrelation.rules" datapoolPath="/OneTest_VBooking_Perf/PassengerDetails.csv" uid="20" columnCreationAllowed="false" datapoolCreationAllowed="false" columnName="cardholdersname">
+      <pass:linkDataSourceWithSubstitutions uid="21">
+        <rul:createSubstitution regexp="&amp;cardholdersname=(.*?)&amp;" uid="22" encoded="true">
+          <names>
+            <item>cardholdersname</item>
+          </names>
+          <attributes>
+            <item>req_uri</item>
+          </attributes>
+        </rul:createSubstitution>
+      </pass:linkDataSourceWithSubstitutions>
+    </rul:createDatapoolColumn>
+    <rul:createDatapoolColumn xmlns:rul="rule:com.ibm.rational.test.lt.datacorrelation.rules" datapoolPath="/OneTest_VBooking_Perf/PassengerDetails.csv" uid="23" columnCreationAllowed="false" datapoolCreationAllowed="false" columnName="postcode">
+      <pass:linkDataSourceWithSubstitutions uid="24">
+        <rul:createSubstitution regexp="&amp;postcode=(.*?)$" uid="25" encoded="true">
+          <names>
+            <item>postcode</item>
+          </names>
+          <attributes>
+            <item>req_uri</item>
+          </attributes>
+        </rul:createSubstitution>
+      </pass:linkDataSourceWithSubstitutions>
+    </rul:createDatapoolColumn>
+    <rul:createDatapoolColumn xmlns:rul="rule:com.ibm.rational.test.lt.datacorrelation.rules" datapoolPath="/OneTest_VBooking_Perf/PassengerDetails.csv" uid="26" columnCreationAllowed="false" datapoolCreationAllowed="false" columnName="passengermiddlename">
+      <pass:linkDataSourceWithSubstitutions uid="27">
+        <rul:createSubstitution regexp="&amp;passengermiddlename=(.*?)&amp;" uid="28" encoded="true">
+          <names>
+            <item>passengermiddlename</item>
+          </names>
+          <attributes>
+            <item>req_uri</item>
+          </attributes>
+        </rul:createSubstitution>
+      </pass:linkDataSourceWithSubstitutions>
+    </rul:createDatapoolColumn>
+    <rul:createDatapoolColumn xmlns:rul="rule:com.ibm.rational.test.lt.datacorrelation.rules" datapoolPath="/OneTest_VBooking_Perf/PassengerDetails.csv" uid="29" columnCreationAllowed="false" datapoolCreationAllowed="false" columnName="cardnumber">
+      <pass:linkDataSourceWithSubstitutions uid="30">
+        <rul:createSubstitution regexp="&amp;cardnumber=(.*?)&amp;" uid="31" encoded="true">
+          <names>
+            <item>cardnumber</item>
+          </names>
+          <attributes>
+            <item>req_uri</item>
+          </attributes>
+        </rul:createSubstitution>
+      </pass:linkDataSourceWithSubstitutions>
+    </rul:createDatapoolColumn>
+    <rul:createDatapoolColumn xmlns:rul="rule:com.ibm.rational.test.lt.datacorrelation.rules" datapoolPath="/OneTest_VBooking_Perf/PassengerDetails.csv" uid="32" columnCreationAllowed="false" datapoolCreationAllowed="false" columnName="cardtype">
+      <pass:linkDataSourceWithSubstitutions uid="33">
+        <rul:createSubstitution regexp="&amp;cardtype=(.*?)&amp;" uid="34" encoded="true">
+          <names>
+            <item>cardtype</item>
+          </names>
+          <attributes>
+            <item>req_uri</item>
+          </attributes>
+        </rul:createSubstitution>
+      </pass:linkDataSourceWithSubstitutions>
+    </rul:createDatapoolColumn>
+  </pass:full>
+</rpt:ruleSet>
